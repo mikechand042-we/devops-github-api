@@ -51,6 +51,44 @@ git switch main
 git switch -c feature
 git merge feature
 ```
+## GitHub Remote
+
+Check remote connection:
+
+```bash
+git remote -v
+```
+
+Add GitHub remote:
+
+```bash
+git remote add origin <repository-url>
+```
+
+Change remote URL:
+
+```bash
+git remote set-url origin <repository-url>
+```
+
+Push to GitHub:
+
+```bash
+git push origin main
+```
+
+Set upstream:
+
+```bash
+git push -u origin main
+```
+
+After upstream is set:
+
+```bash
+git push
+```
+
 
 ## Useful Notes
 
